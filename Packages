@@ -838,6 +838,30 @@ Description: 一刀破解，免激活码，全功能解锁。TG群：https://t.m
 Name: SwitchTheme
 Author: 白衣
 
+Package: com.choco.tgextra
+Architecture: iphoneos-arm64
+Version: 1.7.8
+Maintainer: choco
+Installed-Size: 3256
+Filename: debs/Telegram_TGExtra_1.7.8_iphoneos-arm64.deb
+Size: 833968
+MD5sum: 6649f19128e66ab95aca92ea10b0591c
+SHA1: 469f1a3b5bc20606937921583d78977bd82b7aef
+SHA256: e68c904d64e7e3b900c9a7d645e7bcfd32f89aaac718ee4fbeb5f05a9ae8f471
+SHA512: 463e9b153112e7a51d3a53eddb0c2e97ea32b32a667891841997cc266ea3ba18a0c8acbae0fa866bb287ad8fe9ea2cbc116d0cd93162b5ed6ef602e93270757c
+Section: Tweaks
+Description: Telegram 增强插件
+ * 最后在 Telegram 12.9.3 进行测试
+ * 去除广告
+ * 虚拟定位
+ * 隐藏一些输入状态
+ * 允许保存频道限制下载的文件
+ * 设置界面-长按倒数第三个选项“客服”或者三指长按打开插件
+ * 支持 Telegram、Turrit 等第三方客户端，具体自测
+Name: Telegram TGExtra
+Author: choco
+icon: https://huayuarc.github.io/icon/tgextra.jpg
+
 Package: com.82flex.touchvis
 Architecture: iphoneos-arm64
 Version: 4.2
@@ -854,6 +878,74 @@ Section: Tweaks
 Description: Display your touch interactions!
 Name: Touch-Viz
 Author: Lessica <82flex@gmail.com>
+
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64
+Version: 1.5.2+offline.5
+Maintainer: 一刀
+Installed-Size: 55608
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/TrollOpen_1.5.2_offline.5_iphoneos-arm64.deb
+Size: 17103184
+MD5sum: fe14a4907040558c9f1e84d1d88e2ba2
+SHA1: 3923d1e1d4e09821d5796b8dd73779d7f2d4bda0
+SHA256: 686cf93cfbe530cb31a179a5d436b7a845f91b39751685b6a21b3032bebcee7d
+SHA512: c9c3dc019749eaa7ff87c98df2db8f8f1ae0aedd77d292fe2cff80ab203891048150dc2b88dd9e29a0482592cc82406882df4c98566485d04c13e010325c2e70
+Section: Tweaks
+Description: 内置离线版，在16系统隐根状态测试正常，其他系统自测。
+Name: TrollOpen
+Author: 一刀
+
+Package: ch.xxtou.hudapp.jb
+Architecture: iphoneos-arm64
+Version: 2.0-13
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 640
+Depends: firmware (>= 14.0)
+Filename: debs/TrollSpeed_JB_2.0-13_iphoneos-arm64.deb
+Size: 163468
+MD5sum: 1a1a1b5da934a94c929b6ed9035369e5
+SHA1: 5f7cc3597d897d1b93e3a77b8a06747635f7ca0b
+SHA256: 7d26ad522f14bb732292db9419fb2e2d06bc081b36c9413b1725736eae4007b5
+SHA512: 99127f2dd82e8a2c00eed557658dea23ffcc2a7f7ae36379d6ef11cea0224cc222a7aef6de7b1b55395b1490a17a78fc61efce031a56e42269a29675d26d93d5
+Section: Tweaks
+Description: Troll your speed, but jailbroken.
+Name: TrollSpeed JB
+Author: Lessica <82flex@gmail.com>
+
+Package: com.mallin.tunnelsharevpn
+Architecture: iphoneos-arm64
+Version: 1.2.6-1
+Maintainer: Mallin
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/TunnelShareVPN_1.2.6-1_iphoneos-arm64.deb
+Size: 170144
+MD5sum: 8b6d7225074637bc6ce27cc78a38f133
+SHA1: a5b49124102c4481759c89b5d4ed83356e5d4160
+SHA256: 5bb716ac314b7c1ff7c44da9df87b66d3128e7d866b65b092f8c5c73c08d33ab
+SHA512: 754dc05b41d4cd33c88b4236bd79f5fcde180825dedd50dc865b0584b0c5029f7e114002cd205f441842c216cdca2252b14943c3d4b22f499702b85d1e5df5bc
+Section: Tweaks
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Name: TunnelShareVPN
+Author: Mallin
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+
+Package: com.82flex.unseen
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: 82flex
+Installed-Size: 492
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/Unseen_0.0.5_iphoneos-arm64.deb
+Size: 50012
+MD5sum: 901051d895cc8f999bd3841fd2c2ada4
+SHA1: d7e9d0838c65e4cf15403915d32ae84ee6b91080
+SHA256: b9a0d7c4ece5fa6561cef67444abea99485fe70054ee085b49f525154b06d30a
+SHA512: 9885e5236ce6f16d41bc21f1b6bda39e74129b7667dc61169e62e9cafbf60ef07dc2a12008c2568304c33978eca91f9b92b7f2993bb83fd22d2a4a82b5fa07ed
+Section: Tweaks
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Name: Unseen
+Author: 82flex
 
 Package: com.brend0n.volumemixer
 Architecture: iphoneos-arm64
@@ -893,6 +985,41 @@ Name: WCRefine
 Author: 热心网友
 dev: 君临
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+
+Package: com.oakstheawesome.whatamess
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: OaksTheAwesome
+Installed-Size: 4584
+Depends: mobilesubstrate (>= 0.9.5000), zip, unzip
+Filename: debs/WhatAMess_1.4_iphoneos-arm64.deb
+Size: 2936660
+MD5sum: 4818f50705f849fb8560c2f75fc2fc8d
+SHA1: 31a4835180aba3ed7025c2e94f00be8c79a56d46
+SHA256: 1a219b74ff70016f45490375970fbd82fbffb238ccdb0d321ef3dbdc88c082b2
+SHA512: 0f847f459a96946ac0e65a0b25e57f58e6284459290f973073d8001289a37f96d0f60def7d3d96630147887b999722f35414c0dfa8d026641e2b3dbc5b7c93b1
+Section: Tweaks
+Description: A modern Messages Tweak.
+Name: WhatAMess
+Depiction: https://oakstheawesometweaks.github.io/repo/depictions/?p=com.oakstheawesome.whatamess
+Author: OaksTheAwesome
+
+Package: wiki.qaq.writenow
+Architecture: iphoneos-arm64
+Version: 2.4
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 11060
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/Write_Now_2.4_iphoneos-arm64.deb
+Size: 2607624
+MD5sum: 38a29a42ceb34c9f8d257ed7e8cf1f44
+SHA1: 3be2995baa98ab5c6c5275e1ec8887a65153b82f
+SHA256: 73443916e36455a48242847d5fbd19d7aec4588ff07e5014f2f0bb544ce72dfa
+SHA512: f3ced53cc874a09d375ff2f7793f303f6097696c88f8b88e82a598af91fee4a1781623734e99934ae2a28a0d500b8f4de9bad5b4c6fe82007a494abf40a0a36b
+Section: Tweaks
+Description: AI tool within your hands.
+Name: Write Now
+Author: Lessica <82flex@gmail.com>
 
 Package: libflex
 Architecture: iphoneos-arm64
@@ -1167,6 +1294,24 @@ Section: 杂七杂八
 Description: 插件无设置项，注销生效！功能是让桌面图标随机翻转，没啥用，好看吧！由来了老弟修复支持多巴胺！喜欢的小伙伴们可以试试！
 Name: Random Icon图标随机翻转
 Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.tweaktool
+Architecture: iphoneos-arm64
+Version: 2.0.0-beta
+Maintainer: 搬运工
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/TweakTool插件备份-Rootless_2.0.0-beta_iphoneos-arm64.deb
+Size: 10608
+MD5sum: 33124ec202e7e1dc0fed2a5a2351e0b0
+SHA1: bc37321edf7be2a0de7e4cca59ad4415e969aca5
+SHA256: 017c2c151da027927e9f70f7bf0fbc77601636ddbba25ce5b0b6310ab2b3e6d5
+SHA512: 6d889ee084d79b66a7d94d4f60580c6b35aeacfb6ed1559a0e6c1cc90eee30eaaea0de0744dce0d1ff4b5ecfa1fa8342c7c7f73308875d6e6ec60abe641cc60c
+Section: 杂七杂八
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具，非常的不错，感谢预言小猫。本插件使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可，非常的简单，傻瓜式操作！插件也会保存在这个目录里！
+Name: TweakTool插件备份-Rootless
+Author: 预言小猫
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
