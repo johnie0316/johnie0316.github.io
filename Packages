@@ -356,6 +356,26 @@ Author: Huayuarc
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.advertisement
+Architecture: iphoneos-arm64
+Version: 3.0
+Section: 自研插件
+Maintainer: 搬运工
+Installed-Size: 1897
+Depends: mobilesubstrate (>= 0.9.6100), firmware (>= 14.0)
+Conflicts: com.daodao.rootless.vfa, netskao.weibonoads-rootless, com.swing.dpnoads, com.tencent.live4iphone, netskao.ppxnoads-rootless, netskao.blblnoads-rootless, byg.iosios.net.weifeng.rootless, byg.iosios.net.baidudisk.rootless, com.lenglengyu.killads-rootless, netskao.xhsnoads-rootless, byg.iosios.net.killads-rootless, byg.iosios.net.bilibilinoad.rootless, com.snail.bilibilinoad.rootless, byg.iosios.net.csdn.rootless, byg.iosios.net.xhsnoads-rootless, byg.iosios.net.ppxnoads-rootless, com.swing.ddmcnoads, com.swi
+Filename: debs/广告终结者-Rootless_3.0_iphoneos-arm64.deb
+Size: 3587248
+MD5sum: b5a980e3e2b4ebef4bc9c26aa8f92d4c
+SHA1: 9778ebe8839ef98c5bb952a52a338e29803a30cd
+SHA256: 68652c7dbe35ef8e7a65735dbba577e9ec0b0a79478ad1a5da5e33d5fe837fb5
+SHA512: 78a46f619c19c489604af9b13168dd75745b629116afb519eda35977c66d88b5c1fa839fcbe7a3d83903a3d7c6db29435ac32fa95be199b317d0790853b7a41f
+Description: 本插件无设置项！安装即生效！广告终结者，一款免费的去广告插件，可谓越狱必装插件，创意由来了老弟提起制作，搬运工源维护更新！其中特别感谢iOSign,Netskao,SWING,Wkk等人为大家提供如此多的去广告插件，如果有安装相同软件的去广告插件，导致sileo无法安装以及软件闪退，建议先删除，防止冲突！广告终结者不涉及系统层注入，不会引起系统崩溃重启，放心使用！软件闪退可使用Choicy禁止插件注入该软件！广告终结者永远免费更新，后续会支持越来越多的软件！再说一遍，有问题可使用Choicy禁止插件注入该软件！不是所有软件都能去广告，你觉得没有用就卸载，不用反馈！因为本来就是自用免费插件！至少我觉得有用！隐根转换除非你把手机设置不灭屏，在转换界面等一小时，不然别尝试了！
+Name: 广告终结者-Rootless
+Author: 机车主&来了老弟&iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.colorblack.alinfcwakefix
 Architecture: iphoneos-arm64
 Version: 0.0.36
