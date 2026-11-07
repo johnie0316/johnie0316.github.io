@@ -374,6 +374,26 @@ Name: 支付宝助手
 Author: colorblack
 Icon: https://huayuarc.github.io/icon/zfbpyp.jpg
 
+Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 5180
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/红果净化_2.2.1_iphoneos-arm64.deb
+Size: 2254272
+MD5sum: 2e8dca4eeb523b46986f908df73a55b9
+SHA1: 8bff5b129e745ac02f0a8106c3f7566f5d10d160
+SHA256: ff684eea36a37c9bb0c10f9a8979c3fba60a2563bd4f8c1fd9d1d3d27efab017
+SHA512: b62acf5ceb66c1d2fb8c9c64cc75acb207543669e6450a7d66b5aae7d0e68d2152033abcfb8c37d58d61c4a2a5f1a16688d853ec40f3a35a081cf0a4423125bd
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
 Package: com.wkk.wtvrbglauncher
 Architecture: iphoneos-arm64
 Version: 1.2
