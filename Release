@@ -9,8 +9,8 @@ Description: johniechan
 Support: https://johnie0316.github.io/
 Icon: https://johnie0316.github.io/CydiaIcon.png
 MD5Sum:
- 121ef4c9c6c9be0d1a0363960a89a019  39657 Packages
- 1eb19f823329a9221058eaa4e755beee  17971 Packages.gz
+ f8d9670b277349fef17469648c1ce928  40362 Packages
+ b4b60d04ccf3b7f3e31ba83b7254f2ae  18260 Packages.gz
 SHA256:
- 1a0f542e508965b6b13ff1d0f357b18d1832e09bfd0bde1557d554217c2656ca  39657 Packages
- cde28e3d0d0d56fcc80c61d8cce92bf7366df50d544ed3a4c1ced9decdf73f6d  17971 Packages.gz
+ 73b32b155c1bbe55b7fe08ec04b7d0417e7357a7455e5064eed71607e8900527  40362 Packages
+ 808864faea3969e1230742f504c911231e9bd76597c37dfed3e73bb6e4855fd5  18260 Packages.gz

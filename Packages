@@ -298,6 +298,23 @@ Name: Choicy
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Author: opa334 <opa334@protonmail.com>
 
+Package: colorfulwallpaperx
+Architecture: iphoneos-arm64
+Version: 4.6
+Maintainer: Lessica
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/ColorfulWallpaperX_4.6_iphoneos-arm64.deb
+Size: 1233800
+MD5sum: a28140cd953e930c462d299adf0a4581
+SHA1: 911dfea6db5d12d29bfc12198ecb37843387982e
+SHA256: c4890a56f85fa86a036ef1db927fa36bb06712721494e423a38ab33f99713c9f
+SHA512: 18bc07e3367ca2e98c347cef8a5c25d83c6d7776c650590e736652de871f08cfb8457958e2334f8a1ef4e17b67872de578e6576d343110b3ffaf89ccd900d239
+Section: Tweaks
+Description: 具有彩色效果的动态壁纸。
+Icon: https://repo.cypwn.xyz/packages/ColorfulWallpaperX-Rootless/icon.png
+Name: ColorfulWallpaperX
+Author: Lessica
+
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
 Version: 2.0.1
