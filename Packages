@@ -1,3 +1,24 @@
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 1.3.13-2
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 560
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: debs/CCSupport_1.3.13-2_iphoneos-arm64.deb
+Size: 58812
+MD5sum: 8d7b38b854e6daf53d72f33ef93428ab
+SHA1: 8a3e65874b2a62786ec8ad3ff7643782b01e66b6
+SHA256: 37e4b94888e21438b2a76ad6bf5b9851b9811a7c201f2f0407439cb52b05267a
+SHA512: bf60073ae89ec3f78e3dce268fcf7234585298f65cc6f363bad7da336f6e73d97ad7bd1dc5c0b4b05052b8ec07a73b6ebdb19506bab947595f94201f406d04df
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64
 Version: 1.9.0
@@ -16,6 +37,45 @@ Description: 激活码用户或需要激活码的用户安装这个，非激活�
 Name: CopyVault(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: com.zqbb.limitcharging
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 248
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: zp.limitcharging.rootless
+Filename: debs/Hello_Charging_1.0.8_iphoneos-arm64.deb
+Size: 19216
+MD5sum: 8a4ab859d0f12439ece3437e028044f8
+SHA1: 72c22ee9531f77004dfb960cd3685a232acc271e
+SHA256: e3cdb209ad37704f91d134b75c4bd4451ae9d4e8d19f2963704bb37387af4b8c
+SHA512: 0adcd96106a949903e20fff89c8be47a8b8aea8c13faf5b6a37aeba1e866ed1c9d164eb0c9585da3ad58a7c9bec0d1375bc0b0bca0b6b1419aa4e670c3701b40
+Description: Hello Charging (限制充电)
+ - Wi-Fi Not Disconnected on Lock Screen (Standby consumes 5% more power)
+ - 锁屏不断Wi-Fi(待机多费电5%)
+Name: Hello Charging
+Author: zqbb
+SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
+
+Package: com.notiflyx.tweak
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 448
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/NotiflyX_1.1_iphoneos-arm64.deb
+Size: 53004
+MD5sum: d763c9ee707190a395c4a7beff1e8338
+SHA1: 145872b9db910c83aed91aa4f4a83205df83107a
+SHA256: f8b8a96e81b10c7df6303115d69ae45b531ff3ca3c68e73650f0f1a4b4ef7934
+SHA512: 05caf7386334af312ac6a590796064b3d5c36c3629bb0fe54fd09d02a6375df2afbdc75fe0a7a1a728b7af808facd8ae873679a8eed09d28415787b2b5d688bb
+Description: 横屏弹幕通知
+Name: NotiflyX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/notiflyx.png
 
 Package: com.82flex.touchvis
 Architecture: iphoneos-arm64
@@ -76,6 +136,24 @@ Name: ios16~17动态岛
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
+Package: com.dao.lockdown
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: 嗨-系统
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.roothide.lockdown, cc.dao.lightshield
+Filename: debs/lockdown_rootless_2.0_iphoneos-arm64.deb
+Size: 6976
+MD5sum: db0d08c3b1c9128bc6f8e8c5be2ad1af
+SHA1: f919cf6cdc3ae9551972d9a71d40c829fa75cbbc
+SHA256: 0c863d4dcb3afaa007fa364e2f1835a2bfa33110ac8271148735e1b19e545f63
+SHA512: 7499cc13380743ee8adbc4e0ac616a178e99ef81a86902899dd4ae4f39c839daf50a4df5cd58282879daff4977bd323469c38ec57c02afa7fb215e03a60215a5
+Description: 让你的设备免受 DarkSword/Coruna 攻击！针对 WebContent 进程的 JSC 安全加固。通过配置 JavaScriptCore 选项，消除主要的漏洞利用原语（包括地址泄露/伪造对象 addrof/fakeobj、JIT 类型混淆、垃圾回收器 Use-After-Free）。该安全强化默认处于启用状态，无设置。如果使用真皮白名单RootHide，请去白名单勾选 com.apple.WebKit.WebContent。
+Name: lockdown(rootless)
+Author: roothide
 
 Package: byg.iosios.net.qjkqdbyx.rootless
 Architecture: iphoneos-arm64
