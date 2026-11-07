@@ -1,0 +1,19 @@
+Package: byg.iosios.net.qjkqdbyx.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Section: 杂七杂八
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/全局开启杜比音效-Rootless_0.0.6_iphoneos-arm64.deb
+Size: 5220
+MD5sum: c03db5808a473b6bff145ab8b0bdcc41
+SHA1: 264e4b1d8acf0509843d83f20955fcb13e226e38
+SHA256: 7b591c591b1f8aadc5d1f8ae31b5ea70033c18b798aa99671a3a76c8f4765bb3
+SHA512: 00b688ee24964961b465e4f2e85ddd7c9c6432bce01d202500449a562497cb764f21b0c1e0a34092e721d8ce36ebeba0d0f3a6ab6c66d0ea6a9ba137e3727dbc
+Description: 本插件深度重构iOS系统音频架构,通过底层算法优化与硬件资源调度,实现Hi-Res级音质输出,集成杜比全景声支持、智能降噪、动态均衡等专业级音频处理技术。全局开启杜比音效、杜比音效和普通音效的区别在于杜比音效加强了立体声效果和低音效果，能够使播放的音频声音更具立体环绕感，给人一种身临其境的。应群友要求上架，有没有效自测！没效就卸载！
+Name: 全局开启杜比音效-Rootless
+Author: Huayuarc
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
