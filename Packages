@@ -1,3 +1,59 @@
+Package: com.sini921.appstoretroller
+Architecture: iphoneos-arm64
+Version: 0.1.2-5
+Section: 越狱插件
+Maintainer: Mineek & Nathan & SINI
+Installed-Size: 568
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AppStoreTroller_rootless_0.1.2-5_iphoneos-arm64.deb
+Size: 46316
+MD5sum: 89387998e42c2590e7e174dc0147c192
+SHA1: 206dbef4fdeb841efb5dc8cded9db04e5239455c
+SHA256: 935597918dc41dcdab650f780129aefce2699a007e268909fc33959fab053efd
+SHA512: 55663226ab7c97be0741d87b364c9247761a435b6d2800346a4ca5f5d35fbbc6dd4554132f2d34b0aa08b599486e2da486476cdfcfbd20cb4fa3058a4770f7f7
+Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
+Name: AppStoreTroller(rootless)
+icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+Author: Mineek & Nathan & SINI
+
+Package: com.dao.apptools15
+Architecture: iphoneos-arm64
+Version: 2.9.1+h2l1
+Section: 嗨-付费
+Maintainer: aReo
+Installed-Size: 5126
+Depends: firmware (>= 15.0), mobilesubstrate, iya.banana.hide2less.compat (>= 0.1.0)
+Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15roothide, com.flex2areo.apptools15, com.dao.apptools15roothide, com.dao.apptools15rootless
+Filename: debs/AppTools15-17_RootHide_2.9.1_h2l1_iphoneos-arm64.deb
+Size: 2366784
+MD5sum: 60f220027fef6cdc65cb390c338db96e
+SHA1: 26df6cb9fb331451f6f721c9f84a23e9d61d269e
+SHA256: a797fc81a5b88f572632cce6e0a208b51785727c775bb4092a30ea637ed92955
+SHA512: 30d3e0a8baf3caffb0bb4f0527a11c9c1f60d1c214230a3f3f494eddff70e97853df883c9aa7a441623ff357d02fa503db0982c7e354967b9db20a3fb970dcf8
+Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
+Author: aReo
+Name: AppTools15-17(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
+
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64
+Version: 2.3.6-end
+Section: Tweaks
+Maintainer: binglan
+Installed-Size: 8024
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/CCPrimeX_2.3.6-end_iphoneos-arm64.deb
+Size: 3740280
+MD5sum: 53bf952c27352df427170528ef741c9c
+SHA1: 5511b9136038fe585bed201271be211b586a5593
+SHA256: b1c6e53392e70ff1ca9b640a691b569565b42f9fc501637f4d094c8427e98794
+SHA512: 404cbbae721c5312194c67d4512427226c0a45c6a4102b2716850cd9a761eb1adcfbd6df7d155230632e50c1a6391019021a6068e1f5c85c6d99ae6fd2053f81
+Description: 控制中心中心美化？
+Name: CCPrimeX
+Author: binglan
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64
 Version: 1.3.13-2
@@ -59,6 +115,24 @@ Name: Hello Charging
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
 
+Package: com.0xkuj.notificationsgroupcounts
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/NotificationsGroupCount_1.0.8_iphoneos-arm64.deb
+Size: 66524
+MD5sum: 965f4c45d3e6aebe840dbc66bc91c781
+SHA1: 30b2a811f5313650db2f2b566121ec82568385fa
+SHA256: d2002f73db4fe317fd8ffc7d29f37a50440b8e94524fb51b180e39f45475ca82
+SHA512: 7e0845fe1cecec623d48b9b863028f71ad7e390a448083e80a920b9a6cb707716a15a983d5659865038bfa34abeddbd4e05b9f4d2396a136beae07012eb7a4be
+Description: Count those notifications inside Apple notifications grouping!
+Name: NotificationsGroupCount
+Icon: https://susubaby.top/images/tongzhi.png
+Author: 0xkuj
+
 Package: com.notiflyx.tweak
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -93,6 +167,23 @@ Description: Safari浏览器增强。
 Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
 Name: SafariX
 Author: 0xkuj
+
+Package: com.yourepo.axs.satella
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Section: Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: debs/Satella_1.9.0_iphoneos-arm64.deb
+Size: 69572
+MD5sum: b681596020d9a5208e268abd2a5fe654
+SHA1: 258e0fe067db6999833e9a726e373573bbbba8a8
+SHA256: 2d083e070a2bc72502522852d36e881efae08bc28e4ce49bc6ea8d52d74cc5e8
+SHA512: baac92a6bd24db2bbf566f1a5eb98e968dd1f6432776e9dd608567fa50468b9153bbc8e8d20716197e0a8684e226c657c9e8eb271409b6743de03599faa3af1e
+Description: Modern in-app purchase cracker
+Name: Satella
+Author: Paisseon <qiaozhani000@163.com>
+Icon: https://paisseon.github.io/icons/Satella.png
 
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64
@@ -148,6 +239,26 @@ Description: Display your touch interactions!
 Name: Touch-Viz
 Author: Lessica <82flex@gmail.com>
 
+Package: com.brend0n.volumemixer
+Architecture: iphoneos-arm64
+Version: 0.0.7~beta3
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 1016
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/VolumeMixer_0.0.7_beta3_iphoneos-arm64.deb
+Size: 174692
+MD5sum: 716f1f794921f157da43f7ff48806d6e
+SHA1: 1e03d707925c88139917ef5ff16e8af9c8a90d34
+SHA256: 918a0cdf56728ec9be3932fa90f662f34ec46bb3593aa077b49f236c50d4adb6
+SHA512: 1eb77f82fd598ca4e9b1c1b8178374391017cd07d570de75f3422f5ae065e786051a3de6cc8a96fdcbdc68f7274262f19e3483595eaeac873a040205b68a3642
+Description: Volume control for individual app
+Name: VolumeMixer
+Author: Brend0n <brendonjkding@126.com>
+Icon: file:///Library/PreferenceBundles/volumemixer.bundle/icon@2x.png
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.volumemixer
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.volumemixer/depiction.json
+
 Package: com.qimiao.wcrefine
 Architecture: iphoneos-arm64
 Version: 2.1-9
@@ -191,6 +302,23 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.spark.libsparkapplist
+Architecture: iphoneos-arm64
+Version: 1.1.0~rootless
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 408
+Filename: debs/libSparkAppList_1.1.0_rootless_iphoneos-arm64.deb
+Size: 24904
+MD5sum: 7792d6e0ca799c174c41408dcf5a9306
+SHA1: 4bee4978bb9e5e22c350de45684bb18d6c875cea
+SHA256: 48fdafebe55b1f26b825e0e44b3c80e6d127d9f77bd347430cfa507fa63a0471
+SHA512: fb9c820d605f765fd58cc97537f1a5f59d205e4968782678be68144c1555d3c7d7e1193869dc93938a82d1bc65617cedcf4b62a88549350398ecc4e47e21ddb7
+Description: AppList alternative
+Tag: role::developer
+Name: libSparkAppList
+Author: Spark
+
 Package: com.dao.lockdown
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -227,4 +355,40 @@ Name: 全局开启杜比音效-Rootless
 Author: Huayuarc
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.colorblack.alinfcwakefix
+Architecture: iphoneos-arm64
+Version: 0.0.36
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 996
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/支付宝助手_0.0.36_iphoneos-arm64.deb
+Size: 334676
+MD5sum: d96863894491797f0705f57ea35c990d
+SHA1: a272711863e6ad494d5591a2c6c0ecfcb8450bdb
+SHA256: db416b1e76f3e88b5bf6bdaa29ce6d752412d9f20fd651e1e8a7cfb0e7552025
+SHA512: 3f54ca0a678e3f914cceaa1190c2a86b371c08c2be498f2455374053795e21f480b4b7d51ee401e495866d46355dd7ce49c537676eb01484f17ac36b0be74abd
+Description: 支付宝助手，优化支付宝碰一碰支付功能，改善碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+Name: 支付宝助手
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/zfbpyp.jpg
+
+Package: com.wkk.wtvrbglauncher
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: Lessica
+Installed-Size: 372
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/语音转文字免跳转_1.2_iphoneos-arm64.deb
+Size: 23316
+MD5sum: 0944f7dbad6ae86f9abe9a71c2e4f0fc
+SHA1: 430d548814f4d61d4ae17ed5eceb864c1fcd3689
+SHA256: da989225714f0ad6395d3b67e68b29475f72bc27d11238eea97dadb5d52adf83
+SHA512: ea937040eb91950072f6814d16288c2c505f25788186621afc041f2db758b064ef0a75bd4f7ec638131679b7728d035303c0fefc40a800869cfd1fff5178c101
+Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞。
+Name: 语音转文字免跳转
+Icon: https://s1.imagehub.cc/images/2025/12/26/f6e5793d6cf9b9e667f56142f4b87e9b.png
+Author: Lessica
 
