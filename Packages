@@ -354,6 +354,23 @@ Name: CopyVault(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
+Package: com.yourepo.axs.dock
+Architecture: iphoneos-arm64
+Version: 5.2.0-26
+Maintainer: 搞机群友:三叶草 <qiaozhani000@163.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/Dock美化_5.2.0-26_iphoneos-arm64.deb
+Size: 55696
+MD5sum: 4b133ba6ab02041b3f2ac43e39798285
+SHA1: eeaa65eddd7be577f0fe6263c5cd5ff5039a0304
+SHA256: bc5b3989cb9c09f6a20b0587fa8df09fa1903b8700bb5611c81e4a89b99d78e6
+SHA512: 4e7650a7f171d230b860129a40499c34dcf08c34fc3b0b59db4f9d54522f3756763b106bc301a218486cb0afbc43bf0ac43f31ed482b8dacbe6bf64d98483233
+Section: Tweaks
+Description: Dock浮动美化版：单色气泡取色、流光配色、可保存自定义预设、气泡粒子、壁纸取色与按时段自动换预设
+Name: Dock美化
+Author: 搞机群友:三叶草 <qiaozhani000@163.com>
+Icon: https://raw.githubusercontent.com/xiaowang7799/DockBeauty/main/AxsDockBeautyPrefs/Resources/icon@2x.png
+
 Package: com.zqbb.limitcharging
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -374,6 +391,24 @@ Description: Hello Charging (限制充电)
 Name: Hello Charging
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
+
+Package: com.yourepo.axs.keyboardhook
+Architecture: iphoneos-arm64
+Version: 2.1-3
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: lym.keyboardhook
+Filename: debs/Keyboard_系统输入法自定义_2.1-3_iphoneos-arm64.deb
+Size: 48924
+MD5sum: f7b1e3536a4e559d89ccc1c3fe22f10b
+SHA1: 72c1e2629f56b53202f1f4b73a8595decea0db91
+SHA256: 0a38d979298956f1344cb5d691870e70540bc7fdc6c7c503b73f651a667c171c
+SHA512: d032340f1c7aac314cfcf6f53411975615d309de773dbd736447fb538dbefbf252e6511ddcb9b537f762561fe60ec21e67810d6e9f5836d9ac968cc3806a7591
+Section: Tweaks
+Description: 关于系统输入法和微信输入法的一些自定义，让键盘更个性化！
+Name: Keyboard 系统输入法自定义
+Author: baiy <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/keyboardhook.png
 
 Package: com.0xkuj.notificationsgroupcounts
 Architecture: iphoneos-arm64
