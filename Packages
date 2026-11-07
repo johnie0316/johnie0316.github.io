@@ -61,6 +61,43 @@ Name: AltList
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Author: opa334
 
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64
+Version: 0.1.16
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/AmbientBadge_0.1.16_iphoneos-arm64.deb
+Size: 115484
+MD5sum: 3f1b37841cdb8b4d5a68906bfe870861
+SHA1: 8b3512bbcdcec0530547fb10f9bbf08b93f44492
+SHA256: a4e47db8b49fd2a12b622ea83c6dc5a03f741b0c57e7fd4f6c3e0f3336073a76
+SHA512: 434174e1bdb1a930c1400813d2173ce477b7dd4ea07ba5227a9b77c6bc6f6fc2d05db3313d97f728f9559b981a98566654a1e7b3239ecc6879b4d7af2c1826b2
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+
+Package: com.developlab.appbadge
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: developlab
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: debs/AppBadge顶部显示当前app图标及名称_1.0_iphoneos-arm64.deb
+Size: 8216
+MD5sum: 6c361f4d53ea6cb64944fe2026f5b05d
+SHA1: 2668377e0dd8d4f7d609f99489bfa6872a1b3531
+SHA256: 0a0e08b377d1b6ce31b8b82faaa564bd90641261f1ce338e6355598aab46f091
+SHA512: e2781ebb92860f066a5406aee71a331c9c64f6dca00f8d0efaa902e623059eda78c7005b0335876756a0828c376ed2a33280cc46d9dc8cb53dfa37e252de35e4
+Description: 在刘海或灵动岛下显示app icon和名称
+Name: AppBadge顶部显示当前app图标及名称
+Author: developlab
+Icon: https://axs66.github.io/pro/icon/appbadge.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appbadge/js.json
+
 Package: com.sini921.appstoretroller
 Architecture: iphoneos-arm64
 Version: 0.1.2-5
@@ -98,6 +135,42 @@ Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理�
 Author: aReo
 Name: AppTools15-17(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
+
+Package: com.pxcex.autoscroll
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: pxcex
+Depends: mobilesubstrate
+Conflicts: com.autoscroll.jb, com.wkk.autoscroll
+Filename: debs/AutoScroll_1.0_iphoneos-arm64.deb
+Size: 5360
+MD5sum: 7c88d6154e3079d50b21fdfa2ee0e3c0
+SHA1: 0a911a525e72597d596a4a2856a4d516374cfd0e
+SHA256: a035d664a7e48bdc3432f6db9e28866922533baf6dac23ef508e58c1bb6892b2
+SHA512: 965bfbef2420eb2c669b951c3dfe982adfa8075fb664a7f13c72be720c7663793b05be85fa1b9ba0bfcf582478371a21361cc5965dbe389c182a03c0ead7a1fb
+Description: 手指滑动自动滚动页面，直到再次触摸屏幕停止滚动，安装生效无设置项。
+Name: AutoScroll
+Author: pxcex
+icon: https://huayuarc.github.io/icon/autoscroll.jpg
+
+Package: com.crctdd.autocopyverify
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1524
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/Auto_Copy_Verify_0.0.5_iphoneos-arm64.deb
+Size: 100684
+MD5sum: 3db45d2346ba805c6f372b112840829e
+SHA1: 8884c372760820e85f0723ca1fca9420ece61792
+SHA256: 9a7e6826180eab1f3dba8e2b65ced2a556d506d5c50d532acd021b082f68f070
+SHA512: d01d432f78b2c5914626228f77cb13756bc4f681fec0346794e6fd6fbc99c1a9c7cba734171bce46f9039fdd76b105dc2f26222e130882e8741384f9889c2222
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+Name: Auto Copy Verify
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecutpop.jpg
 
 Package: com.binglan.kongzhidiy
 Architecture: iphoneos-arm64
