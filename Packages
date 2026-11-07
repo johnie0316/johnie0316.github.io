@@ -268,6 +268,25 @@ Name: libSandy
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
 
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64
+Version: 0.7.3
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/mount_bindfs_0.7.3_iphoneos-arm64.deb
+Size: 53476
+MD5sum: 5e0432f8c7fad1578437a913b5f35c80
+SHA1: 8042297bd2d66cc2c169526add3ab62e88faf8da
+SHA256: 662b7de9411d95e64c176058130e47969d5f2c1aead835dcf367032c053c3184
+SHA512: 7d29ce721cdfed91e0ee6fb4c54348d1bfa8213085942af5571b9271e877f9bf0a606869f9f99727063ec8da8043176bde8ed2cb34d406852d18dfc501c214ea
+Section: System
+Description: bindfs 挂载工具
+Name: mount_bindfs
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
 Package: com.amywhile.aemulo
 Architecture: iphoneos-arm64
 Version: 1.2.5
