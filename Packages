@@ -356,6 +356,23 @@ Author: Huayuarc
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.squidforce.doubletapflipcamera
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 1.1.5000)
+Filename: debs/双击翻转相机镜头_-_DoubleTapFlipCamera_1.1_iphoneos-arm64.deb
+Size: 4932
+MD5sum: 2ef0d502d482019216e3af273c2e3809
+SHA1: 55345a3b1db2d3b91e7c2b9c393a4a717c213d44
+SHA256: bd3dd42e3895e5a000d86278a7e4ab9e4beed647735e8c0d0c784f03559a51f6
+SHA512: 647881009b4e10564a5d5ab49c190b26a05d620d99f880c2a789c90e5815676a5035ffa05cf21c6e5c9254b7ecd0149318f1e1bd74c6366505db1c0e67d73ab5
+Description: 双击取景框翻转相机前置和后置镜头，无设置项。目前支持系统相机拍照和录像，微信拍照和视频，QQ拍照。理论上调用系统相机拍照的应用都可以，在DoubleTapFlipCamera.plist中加入应用的BundleId即可。
+Name: 双击翻转相机镜头 - DoubleTapFlipCamera
+Author: SquidForce
+
 Package: byg.iosios.net.advertisement
 Architecture: iphoneos-arm64
 Version: 3.0
@@ -431,4 +448,116 @@ Description: 中文输入法语音转文字免跳转插件。无设置选项，�
 Name: 语音转文字免跳转
 Icon: https://s1.imagehub.cc/images/2025/12/26/f6e5793d6cf9b9e667f56142f4b87e9b.png
 Author: Lessica
+
+Package: byg.iosios.net.batteryview.rootless
+Architecture: iphoneos-arm64
+Version: 1.8
+Section: 杂七杂八
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: applicationscene, batteryview
+Filename: debs/软件底部高度调整-Rootless_1.8_iphoneos-arm64.deb
+Size: 4152
+MD5sum: 6655fa1607a815fceb324a3f1085304a
+SHA1: 56389569f6e5f2a52af2ef23df4f6d03263ff13c
+SHA256: ff6dd43ae3a5992bc584584ca5bb697a1b139e7db5a305ed66b12067df1e4974
+SHA512: 51e474d9ae81ac8d3e1cc9032727339c48ce22a9978ac7e634f100ab1b8d8463a7ebb8343bfce49ed445f462fd29d17e8a3a48f2d7890085b9e9180e56d200ba
+Description: 去除软件底部高度+去除底部横条，本插件可能无效，自行测试，如果不行就卸载。
+Name: 软件底部高度调整-Rootless
+Author: z
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.wacljcr.wxkbtoolbar10
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Tweaks
+Maintainer: wacljcr
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wacljcr.nativekb
+Replaces: com.wacljcr.nativekb
+Filename: debs/输入法自定义优化_4.0_iphoneos-arm64.deb
+Size: 596756
+MD5sum: 4dbb3ed16d2a16019ab4cdc69f34cef8
+SHA1: c90210808359ba2ea1f6f75eaeed02f9ae7e35e5
+SHA256: b4a6679ec426cdafc089c6de226ae47b41c324986a67edbd49d288af6bc2deef
+SHA512: 2eeb686628745211ed41911ee4e23a6a7614b12752b2af481d50b5c1329d315fa9b553cb70767ee7cbff0c32822ab178985c33d4d74082ce758308368b8d5ea9
+Description: 输入法自定义优化 —— 微信键盘与系统原生键盘的一站式外观定制
+ 一份 dylib 双引擎，同时管两套键盘：微信输入法键盘扩展（com.tencent.wetype.keyboard）与 iOS 系统原生键盘。v4.0 起把原来的「WxkbToolbar10」与「NativeKB」合并为一个插件，系统里少映射一份库、键盘扩展少一套 hook 表，设置里也只有一个入口。
+ .
+ **微信键盘 · 外观**
+ - 整键盘透明：递归清掉键盘自带的背景层（含毛玻璃与铺满型背景图），透出后面的内容；按键底色与文字色不受影响，仍是清晰黑字
+ - 键盘背景：纯色 / 相册图片（按键盘比例自动裁剪）/ 背景透明度
+ - 按键配色：字母、数字符号、左侧功能键、右侧功能键、空格分组取色，另有按键文字色与按下高亮色
+ - 主题色板 32 套（原图、彩虹、马卡龙、蜜桃、薄荷、森系、蒸汽波…），另有 4 套一键套用的配色预设：极光 / 莫兰迪 / 暗夜 / 清新，套用后仍可逐项微调
+ - 字母键进阶：A→Z 双色渐变，12 种变色方向（横 / 竖 / 斜 + 9 个角度），26 个字母也能逐个单独上色
+ - 彩虹键帽：用真实键帽图渲染，比程序生成的彩虹色更立体
+ - 我的主题：把当前整套外观存档，随时一键套用，不用每次重配
+ - 按键形状：圆角 0–22 pt，另有圆形 / 椭圆 / 半圆 / 五边形 / 六边形 / 星形 / 心形 / 水珠 / 描边
+ - 键盘上下位移；工具栏紧贴左侧 logo 铺满整行、图标保持原生尺寸不缩小、放不下时横向滑动
+ .
+ **系统原生键盘 · 增强**
+ - 字号：候选字大小倍率、键帽字号倍率，想让字大一点不用换系统字号
+ - 按键：按键圆角、隐藏系统灰底（默认开）、保留按键阴影、按键边框（颜色与宽度）、按键背景色、发送键单独配色
+ - 键盘底板：隐藏分割线、键盘整体背景色、底座背景色、保留毛玻璃
+ - 候选词栏配色：箭头按钮背景、网格背景、高亮背景与高亮文字、分隔线、预测栏背景
+ - 每组都有「恢复本组默认」，随时退回系统原生外观
+ .
+ **使用与说明**
+ - 改动后收起键盘再弹出即生效；批量调整完建议 respring 一次
+ - 微信键盘部分只改外观，不动布局与按键位置 —— 强改布局会被微信布局引擎反噬并触发键盘扩展崩溃
+ - 原生键盘增强在所有 App 内生效；微信键盘增强只在键盘扩展进程激活，普通 App 不加载，不额外占用内存
+ - 安装 v4.0 会自动移除旧的 NativeKB，原有设置继续沿用
+ - 设置入口：设置 → 输入法自定义优化；问题反馈可邮件联系 wacljcr@qq.com
+ .
+ 支持 iOS 15 – 16 的 rootless 越狱（Relaxin / Dopamine / RootHide），依赖 mobilesubstrate 或 ellekit、preferenceloader。
+Name: 输入法自定义优化
+Author: wacljcr
+icon: https://huayuarc.github.io/icon/wxkbtoolbar10.png
+
+Package: spoofnotify
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: debs/通知权限伪装_1.0.2_iphoneos-arm64.deb
+Size: 36724
+MD5sum: 23716d50a18f2e2bf2f2fe9c341a285a
+SHA1: 7c40d346780446e41ccd7275094a4b9f172251c8
+SHA256: a210aa70ed4e0a4965889dfe56ce8b29e2fd56b7b35b92aa6f884b4a0f71f183
+SHA512: 63a2152e10ff858a6e9ac0a956285b9816e644a7450fb904a03abef3db2edcc7c4d3d17e86f645fd468e1af4dc65ff9aa6d4c03b1a443d39ee19165a68833ce3
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Name: 通知权限伪装
+Author: Junhong
+icon: https://huayuarc.github.io/icon/spoofnotify.png
+
+Package: com.xybp888.magiciannojailbreak.dopamine
+Architecture: iphoneos-arm64
+Version: 0.0.1-529
+Section: Tweaks
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/魔术师_Rootless_0.0.1-529_iphoneos-arm64.deb
+Size: 91844
+MD5sum: 5291fdf3f3e7668125470e875d019d01
+SHA1: eceea33c204279501ff31c6ee90d8b1c571c3e28
+SHA256: 7dee9f16c75ba774d8d11006c59d169eb4c8585060ac7bd139de9ee8f7985df3
+SHA512: 709f8ccd35b4affc95f6f75f6a17716ef0610772ee8b09a726bb96c8900c7e0b38dcf8fb00f680758f7d99d35448661d7cbeb6ab8223de53da105a1c69cfe5d3
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Name: 魔术师(Rootless)
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/377
+SileoDepiction: https://apt.htv123.com/sileo/377
 
