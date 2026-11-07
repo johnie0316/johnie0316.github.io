@@ -1,0 +1,59 @@
+{
+  "sections": [
+    {
+      "name": "Axs-Tweaks",
+      "orig": "Axs-Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "Development",
+      "orig": "Development",
+      "pkgs": []
+    },
+    {
+      "name": "System",
+      "orig": "System",
+      "pkgs": []
+    },
+    {
+      "name": "Tweaks",
+      "orig": "Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "嗨-付费",
+      "orig": "嗨-付费",
+      "pkgs": []
+    },
+    {
+      "name": "嗨-系统",
+      "orig": "嗨-系统",
+      "pkgs": []
+    },
+    {
+      "name": "微信插件",
+      "orig": "微信插件",
+      "pkgs": []
+    },
+    {
+      "name": "插件",
+      "orig": "",
+      "pkgs": []
+    },
+    {
+      "name": "杂七杂八",
+      "orig": "杂七杂八",
+      "pkgs": []
+    },
+    {
+      "name": "自研插件",
+      "orig": "自研插件",
+      "pkgs": []
+    },
+    {
+      "name": "越狱插件",
+      "orig": "越狱插件",
+      "pkgs": []
+    }
+  ]
+}
