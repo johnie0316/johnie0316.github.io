@@ -77,6 +77,60 @@ Name: NotiflyX
 Author: 半生年华
 icon: https://huayuarc.github.io/icon/notiflyx.png
 
+Package: com.0xkuj.safarix
+Architecture: iphoneos-arm64
+Version: 1.9.9.1
+Section: 插件
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/SafariX_1.9.9.1_iphoneos-arm64.deb
+Size: 322344
+MD5sum: 40ee6fdb2dd309f23abd0809d7491de2
+SHA1: b199484aac639e92c6e51d01461a2b84cbfb2be6
+SHA256: 522438a4740b53f2d7cb05aa384c2cb20b9834e6ea7f63fad44ad2ccb3e0a7cc
+SHA512: a68faa781c59da1d8337de035ed4b38ebc620ce7ef9c87482bbfb6d7255a70a59f297bf1cdfbe07888b3d55b7eadebb6526aade8f4c4655cf5be3f1bd41cbff5
+Description: Safari浏览器增强。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
+Name: SafariX
+Author: 0xkuj
+
+Package: com.axs.snapper4
+Architecture: iphoneos-arm64
+Version: 5.2.0-45
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhini000@163.com>
+Installed-Size: 1620
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx
+Filename: debs/Snapper_4_5.2.0-45_iphoneos-arm64.deb
+Size: 383256
+MD5sum: 631d25fd9e1c319dcda976d90273673b
+SHA1: b1fcbce11259dba2d5d6b327771eba7aba60d386
+SHA256: cf0ba5d9f405df7a703b86a493153f95ee146682c0cf8c9f856ceb08e5f5b90e
+SHA512: de3e0ecaa660d365398b3a6b6f5da0ba8db381a807dadb9e3258d651c70f4cf7c8bde14c6de539a3a1e996d93c17315423db67003970a9f71fc7ad9ccaf6c272
+Description: 这是一款截图工具。
+ * 一、基本设置
+ * 1、移动标记：开启后标注内容可拖动调整位置；
+ * 2、功能开关与排序：设置面板内可开关并拖拽排序全部功能。
+ * 二、触发方式
+ * 1、音量增+电源键=：可选系统截图或插件截图；
+ * 2、长按音量减→插件截图：开启后长按音量减约 0.2 秒调出冻结模式。
+ * 三、截图设置
+ * 1、截图仅复制：截图后仅复制到剪贴板；
+ * 2、长截图方式：滚动拼接 / 一镜到底，智能帧匹配自动拼接；
+ * 四、AI 服务（识别与翻译）
+ * 1、Sileo：Sileo 描述页长按翻译纯文本，翻译方式可选百度翻译或 AI 翻译；
+ * 2、AI 互译与问答：中英文互译与中文问答，支持自定义提示词与 AI 对话模式，半屏浮层展示；
+ * 3、文字识别 (OCR)：模型识别截图文字，半屏浮层展示、涂抹选择、一键复制；
+ * 4、百度翻译：自动检测语言双向翻译（中文↔外语），支持图片翻译 / 文本翻译双通道。
+ * 五、扩展功能
+ * 1、截图标记：颜色/箭头/自由画线/文字/矩形/圆形/高亮/马赛克/撤回/删除/保存/复制；
+ * 2、URL 触发：支持手势插件通过 prefs:root=snapper4_freeze（冻结）/ prefs:root=snapper4_long（长截图）系统深链触发。
+Name: Snapper 4
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
+
 Package: com.82flex.touchvis
 Architecture: iphoneos-arm64
 Version: 4.2
