@@ -250,6 +250,27 @@ Name: Orion Runtime (iOS 14 – 17)
 Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
 Depiction: https://chariz.com/get/orion-runtime14
 
+Package: preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.2.8
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 386
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/PreferenceLoader_2.2.8_iphoneos-arm64.deb
+Size: 19300
+MD5sum: 5747c117f1f03486ecb873c95559b036
+SHA1: f92961451ff2dc58720217222c94f7cee1725702
+SHA256: 5158e596de2075e0983b958cf6d4f751075c0a0ec8137894b27739d9e561ca29
+SHA512: 4cf8516bf459e794bc1d2b477efbb2ea0f6fefad956210bce628bbb67c664129642d1f132d131e38f1182946ef9597119a7869f2b1efe9cacfff4f82d1a81d06
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Section: System
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Name: PreferenceLoader
+Author: Dhinak G <dhinak@dhinak.net>
+dev: dhinakg
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64
 Version: 1.1.6-4
@@ -721,6 +742,29 @@ Name: Satella
 Author: Paisseon <qiaozhani000@163.com>
 Icon: https://paisseon.github.io/icons/Satella.png
 
+Package: com.axs.screenshellpro
+Architecture: iphoneos-arm64
+Version: 5.2.0-61
+Maintainer: Axs
+Installed-Size: 540
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/ScreenShell_Pro_5.2.0-61_iphoneos-arm64.deb
+Size: 51692
+MD5sum: 6416c8277ecd699c4b0601066333685f
+SHA1: bda601725dd6f5b0c127f1baa594c7b37f166f20
+SHA256: 937404222a32d7ce42d1622ff9165cf2857adca928f5869ae62c57e633fc6193
+SHA512: 69fce7f4676e0720f14cc22d48aa0da376691594b1bf2363938889f13418fb7c5c60591e0974bfbaf08a0189b7368b946906fe6bb880f1d530b864bf31a23cb6
+Section: Tweaks
+Description: 专业的 iOS 全局水印&套壳『截屏.录屏』增强工具。插件需要授权才能使用。授权请联系微信：VCR66T
+ * 1. 录屏套壳渲染极快。
+ * 2. 渲染过程中手机不发烫。
+ * 3. 插件不需要任何依赖。
+ * 4. 本插件是目前市面上最好的录屏套壳渲染工具。
+Name: ScreenShell Pro
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
+
 Package: com.susudear.sharingdalertwatchdog
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -738,6 +782,25 @@ Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法�
 Name: SharingdAlertWatchdog
 Author: SuSuDear
 icon: https://huayuarc.github.io/icon/airdrop.jpg
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.4
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/SquidExtender_激活码版_3.7.4_iphoneos-arm64.deb
+Size: 2286400
+MD5sum: b8b080422fd5e724eee099e8bc3bf804
+SHA1: f916643d250a235e1d915e973acd2fe9c9e9b5cf
+SHA256: 51cc09602668b1618d3ab6006eb98e56b268633cdd98e5f970a7b4915eb0eb49
+SHA512: 389a59cd6accb3d2206149b1e77a1dbb5a5fd10417aeb9d2bc9eb617f81fb8f5ae8a950c2095eb4482804f6c1a4ea8702bf443a24c0f740c6dc7b683f10fa978
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 
 Package: cn.octoforce.squidgesturepro
 Architecture: iphoneos-arm64
