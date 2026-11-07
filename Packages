@@ -590,6 +590,24 @@ Name: Hello Charging
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
 
+Package: cn.zqbb.hellospeed
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Maintainer: zqbb
+Installed-Size: 428
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Hello_Speed_1.2.2_iphoneos-arm64.deb
+Size: 78828
+MD5sum: b565f235a88a21a26ba639a2e4a5a457
+SHA1: 763b17a2ef2f2b0da943da401bf0f5d67f46e2ca
+SHA256: 5178839cb54af49b332c7a30b456a1b6fb829277f9d2cd95c7df1d9200113206
+SHA512: b22cff6e455c3a5f69cd005999cd573f309bf48a25cea9c5828cccdadfe54b4877a92912d87c1525bd94f1477f8dcadd69cbc925f890755d4c27842928fb1a5c
+Section: Tweaks
+Description: SpringBoard动画加速!
+Name: Hello Speed
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellospeed
+
 Package: com.yaowell.hideavcontrols
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -1428,6 +1446,29 @@ Author: SOPPPra
 icon: https://sini921.github.io/repo/sileodepiction/icon/settingsrevamp.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/settingsrevamp/js.json
 Name: SettingsRevamp(rootless)
+
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64
+Version: 3.3.3-6
+Maintainer: zqbb
+Installed-Size: 6188
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/Hello_120Hz_3.3.3-6_iphoneos-arm64.deb
+Size: 1810340
+MD5sum: 8770f0f80f0885e1fb9b200e0d7cde90
+SHA1: 02a64e3fc7a444c97c51eabe3ebb0b90f14ef31f
+SHA256: e5c8d7ddf584c69ceff41455f9bad5dafb9cf5586a0460bad7ae1d8675792c08
+SHA512: bae248ca343bdf402f9e81ea602c1828207cf3bc9c193c6ef595df6582f9556f4517f802a671a6be93912372ba718cc5c043cda1ac040e72be56c8fab86e181e
+Section: 插件
+Description: 
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
 Package: cn.zqbb.holdcpu
 Architecture: iphoneos-arm64
