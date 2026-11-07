@@ -23,6 +23,52 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/bigtime.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigtime/js.json
 
+Package: com.axs.duostatus
+Architecture: iphoneos-arm64
+Version: 5.2.0-119
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 552
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/DuoStatus_5.2.0-119_iphoneos-arm64.deb
+Size: 67304
+MD5sum: 5275f78118015aec2751d80830d28a4c
+SHA1: bb53c71eef16146dc22d38093769cb2994af8667
+SHA256: a6d6e0788dc62ee858162039acaa924a48c83a8487f94c0a5aaac6a4fb11fa95
+SHA512: 54349814ccfb9d36c334ed381a8e578615acbfb1d02b7cb33f6bc6567839a297ed564371ea932a4856f719ca57bc533bdafbc6f68f5e52cf94af860de2c73414
+Section: Axs-Tweaks
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回
+ * 4.支持自定义元素的尺寸/位移/线宽/配色等参数，改动即时生效
+ * 5. 支持ios15.0~17.3.1系统
+ * 6. 兼容电话助手
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64
+Version: 5.2.0-31
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 512
+Depends: preferenceloader
+Filename: debs/IPSLog_5.2.0-31_iphoneos-arm64.deb
+Size: 87744
+MD5sum: ba82ef5dab529be736c2c52eb54ad11e
+SHA1: 03586734c4fff0d57574f0b1d85ae37fbc28e417
+SHA256: d8893447492ea4049ea8ae420ef651109b52d3bd7e5c3a9d9e054c2c15bb5e8b
+SHA512: cdb0763db834913d9a01e075cfd9d9e811b6f4df588df3dd2d7b5aca1cc66589065fcf1f3d91a79a6ae6007fdf40b5057efc7c71088c2c74941b1a507483342e
+Section: Axs-Tweaks
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64
 Version: 5.2.0-45
@@ -146,6 +192,23 @@ Tag: role::developer
 Name: AltList
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Author: opa334
+
+Package: iya.banana.hide2less.compat
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: Banana
+Depends: firmware (>= 15.0)
+Filename: debs/Hide2Less_Compatibility_0.1.0_iphoneos-arm64.deb
+Size: 17216
+MD5sum: 7ea9e17b84f65bd6514edf1baea1951e
+SHA1: 9a7622a2bae8172321bbc6d735494993309c41f0
+SHA256: 6f02885f2981f155098e1f1f09175c9f37a656c7b37a188365633501e95f877d
+SHA512: 4bb714b9b3f40252fa59dbf6bf251442d206d0defb45dbe61e7bfde96adf0b9bdfad8e3f19296c0e4a1afefda7ccb3dc88d4f4c50449a80db42380fdd488e415
+Section: System
+Description: 为 Hide2Less 转换后的 Rootless 插件提供所需的兼容支持。Shared path API compatibility for packages converted by Hide2Less.
+Name: Hide2Less Compatibility
+Author: Banana
+icon: https://huayuarc.github.io/icon/hide2less.png
 
 Package: com.amywhile.aemulo
 Architecture: iphoneos-arm64
@@ -354,6 +417,24 @@ Name: CopyVault(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
+Package: com.crctdd.disablecarrierpop
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: crctdd
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/Disable_CarrierPoP_0.0.1_iphoneos-arm64.deb
+Size: 4500
+MD5sum: bd0c7da3ad650d2abb4e89ec8c67a8b9
+SHA1: 9358f7ba5852b3dc66f152264a4105765d7883a8
+SHA256: 424d51527a1d203152f9abc689faee68790a705b410d21345e90d5f975e4b451
+SHA512: 1916323fe79fd25103187fb9af34e3a2869e5b7ebf4052d8f280b8e9d43d1fab631059e0ef6f6a8d586e36cb2314e1cb50f26070a3cbaad3a2b21711b448459b
+Section: Tweaks
+Description: 禁用运营商弹窗；无设置项。(支持iOS 15-17)
+Name: Disable CarrierPoP
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecarrierpop.jpg
+
 Package: com.yourepo.axs.dock
 Architecture: iphoneos-arm64
 Version: 5.2.0-26
@@ -370,6 +451,25 @@ Description: Dock浮动美化版：单色气泡取色、流光配色、可保存
 Name: Dock美化
 Author: 搞机群友:三叶草 <qiaozhani000@163.com>
 Icon: https://raw.githubusercontent.com/xiaowang7799/DockBeauty/main/AxsDockBeautyPrefs/Resources/icon@2x.png
+
+Package: cn.zqbb.disupdateapp
+Architecture: iphoneos-arm64
+Version: 2.0.0-6
+Maintainer: zqbb
+Installed-Size: 692
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/Hello_App_2.0.0-6_iphoneos-arm64.deb
+Size: 129852
+MD5sum: 325eb5484713268305bdb21addb8adbf
+SHA1: e9e2faddcf01dabf277b3b4d1c2e5c46cdacd409
+SHA256: e2a4639113f72511507301ddbadb6fb5967d45cb43faed1a5786f5c7bd83b03e
+SHA512: 4699bf39d899889df427944975add7593d731ef0e8dd2bbca8a38d958454b586dcb63f216824343be97d6458baf532c4c215be4a15684339df67d109dd7cd644
+Section: Tweaks
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Name: Hello App
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
 Package: com.zqbb.limitcharging
 Architecture: iphoneos-arm64
@@ -391,6 +491,24 @@ Description: Hello Charging (限制充电)
 Name: Hello Charging
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
+
+Package: com.yaowell.hideavcontrols
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: yaowell
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/HideAVControls_1.1_iphoneos-arm64.deb
+Size: 4868
+MD5sum: 7e1509ac94b3c40f424db24eef25abee
+SHA1: de66eb5abfb6f5faccdc9e7bfb7ef9fdbca59dca
+SHA256: 2c457009e63e3eb3b9fdc3dd868944acda552d4721c130d53173defdfdb3e34a
+SHA512: 82f0559ac5f11b37bf626a86ec460dcbf79e5dd840ce2d7421b822a86c6a33c708026010660caf80e6a3f90f406885ece747e91d06d262bd89f5d9b5817c6e07
+Section: Tweaks
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
+Name: HideAVControls
+Author: yaowell
+icon: https://huayuarc.github.io/icon/hideavcontrols.png
 
 Package: com.yourepo.axs.keyboardhook
 Architecture: iphoneos-arm64
@@ -834,6 +952,26 @@ Name: AppStoreTroller(rootless)
 icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
 Author: Mineek & Nathan & SINI
+
+Package: cn.zqbb.holdcpu
+Architecture: iphoneos-arm64
+Version: 2.3.5-5
+Maintainer: zqbb
+Installed-Size: 3676
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/Hello_CPU_2.3.5-5_iphoneos-arm64.deb
+Size: 1296660
+MD5sum: cdca6d0bd428f50074ad728d72e3d631
+SHA1: 89f9b967cbfc23f0e159f6bbee81053f92335492
+SHA256: be2f34a74df3539dac2b1efbe944237a04e1a189c5ae3cf8233c152e3988d4bf
+SHA512: ca14e49adf68b2ac802cc881bfd8187faa5f9d03fbd91231ddacb8a7a00b958975923ac092d478539d295e70ac19005b0dab6a4cb6ea908af49b1e15f0c881f2
+Section: 插件
+Description: (解除温控) (锁定低电量CPU频率)
+Name: Hello CPU
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
 Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64
