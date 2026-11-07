@@ -308,6 +308,23 @@ Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64
+Version: 1.3.8+repair.test3
+Maintainer: 一刀
+Installed-Size: 41014
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/88液态玻璃插件_1.3.8_1.3.8_repair.test3_iphoneos-arm64.deb
+Size: 11705700
+MD5sum: ed17e74c6a9167b39aec80d8368604d8
+SHA1: 3953530eae2a47ea57ffeaeef8ef49268525a171
+SHA256: 32c2d66b58afa050e6908b53d26744ce40d48b88084613806393f1a7e80e7856
+SHA512: 0d5183c41e61211bdb0e6fbd555aea36984b61468da2663c881997b38163654c5728b7070347fc52e5004b1e7614cf15f65af5776e1db3e8bbfd0610c75a21fe
+Section: Tweaks
+Description: 液态玻璃
+Name: 88液态玻璃插件 1.3.8
+Author: 一刀
+
 Package: com.amywhile.aemulo
 Architecture: iphoneos-arm64
 Version: 1.2.5
