@@ -1,3 +1,82 @@
+Package: cn.octoforce.copyvault
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6220
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/CopyVault_激活码版_1.9.0_iphoneos-arm64.deb
+Size: 1670096
+MD5sum: df5b197715d2fa181d40022f03271496
+SHA1: c2c39784a87d7cb5e450a5ca107e8410211be1f0
+SHA256: 350efc73280460ec90ae7b2134992d88b34e030fec0f3b408f04d18621bb4d7c
+SHA512: 917e065aae0958baee071118059c170b2bf3c727924823656fa104a4608d6d2076a751fc64fcc789744ca6f99e6618dc3268881a1d95fcbe593775a26f706289
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Name: CopyVault(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: com.82flex.touchvis
+Architecture: iphoneos-arm64
+Version: 4.2
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3644
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/Touch-Viz_4.2_iphoneos-arm64.deb
+Size: 729004
+MD5sum: c7ae686875f3444fcc9a401d05ff3ec5
+SHA1: ff3d36426269ca51550f8a6abee154ce55b8dd52
+SHA256: b8d79356eaf78f3f92717d2316fe4e3129d9f83e0c836b9cb7903534b88f35c7
+SHA512: 4d8d035936a6df19a94e56bc8cad67cb72dc82d5f0f7c530294c7879488254ee37c969deb0a7cb4fc142e13e8575815953f2d4e275e49a24c4641d13376c9f7f
+Description: Display your touch interactions!
+Name: Touch-Viz
+Author: Lessica <82flex@gmail.com>
+
+Package: com.qimiao.wcrefine
+Architecture: iphoneos-arm64
+Version: 2.1-9
+Priority: optional
+Section: Tweaks
+Maintainer: 热心网友
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/WCRefine_2.1-9_iphoneos-arm64.deb
+Size: 10892948
+MD5sum: d721a7c906997e2cf9d47cbf8eae213c
+SHA1: 891f28e15f740fd8608481f0f37380d9a2085126
+SHA256: 030ed891489d77a8677c6cd3b81f5271a5b500d42bda88c7746ade8c3099979d
+SHA512: 44ce2d95abb4ac84dcbb3c252c2e7ac377fc94e09f2f01c8972ff2fdf99ff511ab3552554aa3ee00eccfe051879aafdd410eea0378ff76d13c6b89273e0c146c
+Description: 微信优化的重制版，上百种功能优化你的微信。
+Name: WCRefine
+Author: 热心网友
+dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64
+Version: 5.2.0-244
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 704
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/ios16_17动态岛_5.2.0-244_iphoneos-arm64.deb
+Size: 123944
+MD5sum: 83e899a5119f5366a9df0b625de7746c
+SHA1: 36742b1116cce9d8145e030b5957f9c433f06a22
+SHA256: d358632486628afed89f7106d3d25c23197bac1455f8135fea33f730968cf7cd
+SHA512: bd083e485637e91c3b44be161c4a6da8a074ff192eaf2d937b728611b2c9af65500ed81a22ec3eba21199eb925cab8f5f40d940422c4166b827fd5899422921a
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。付费插件，150缘，授权校验联系:VCR66T
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Name: ios16~17动态岛
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
 Package: byg.iosios.net.qjkqdbyx.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.6
