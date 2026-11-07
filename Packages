@@ -174,6 +174,25 @@ Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Depiction: https://chariz.com/get/cephei
 Support: https://hashbang.productions/support/
 
+Package: com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Maintainer: MrGcGamer
+Installed-Size: 380
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Filename: debs/LibGcUniversal_1.7.0_iphoneos-arm64.deb
+Size: 54436
+MD5sum: 8d29c76a8d528e2f494d483db0c8012d
+SHA1: 79a941720c16388f00c4a9ec5f2b808fd1ca30c5
+SHA256: 886ef1e543ec4ff54d98291a147756891db04dcebb4fca594ab758f6e16ea773
+SHA512: 79955498b2fa2eade89df62180fc67ec2b1ddcbc3d0f8d36637bc43f8408cec4bc30a2224ba3ff764cfdeb5cd032b622923fde31851b4c30456329c1fc559f30
+Section: Development
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: LibGcUniversal
+Author: MrGcGamer
+
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64
 Version: 1.0.11
@@ -209,6 +228,45 @@ Description: 为 Hide2Less 转换后的 Rootless 插件提供所需的兼容支�
 Name: Hide2Less Compatibility
 Author: Banana
 icon: https://huayuarc.github.io/icon/hide2less.png
+
+Package: dev.theos.orion14
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Provides: dev.theos.orion (= 1.0.2)
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/Orion_Runtime_iOS_14_– 17_1.0.2_iphoneos-arm64.deb
+Size: 93512
+MD5sum: d59fa2bba9d288f93a94c1cb8e7a7095
+SHA1: 18e91871f80f3fdbebc97227ac596bf58771294e
+SHA256: 3605cadb0733a21be961ba9a82e4d7a5448c7b4a2078a82a9795a04d78e1b24e
+SHA512: ade7dbd048849166956f779463b872cacdaa8b77f28bc2b5f3630c7a713a50953b7faa6d098435dc255da7511cd28142df9055a08313986999583956f26ff475
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Name: Orion Runtime (iOS 14 – 17)
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Depiction: https://chariz.com/get/orion-runtime14
+
+Package: com.opa334.libsandy
+Architecture: iphoneos-arm64
+Version: 1.1.6-4
+Maintainer: opa334
+Installed-Size: 420
+Filename: debs/libSandy_1.1.6-4_iphoneos-arm64.deb
+Size: 18300
+MD5sum: 7d831cfccaf0ba686da00bfa36d619eb
+SHA1: 722ccf5f6b530c397c5947de29f91f3e541db1fd
+SHA256: 5c8af2246bd2a994a3fb8f3e714cda99671ea6dd59222bb11164c1f90696a6ed
+SHA512: 86097612b848dce665f599574544b429abad19d97a8136a353a1ceb51792b2cf66b40e8eaca24beca4f8864ee40b8818c033cc5a024100a7a9c37d159c2575ac
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Name: libSandy
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Author: opa334
 
 Package: com.amywhile.aemulo
 Architecture: iphoneos-arm64
@@ -528,6 +586,69 @@ Name: Keyboard 系统输入法自定义
 Author: baiy <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/keyboardhook.png
 
+Package: com.axs.lstimeseconds
+Architecture: iphoneos-arm64
+Version: 0.3
+Maintainer: b4db1r3
+Installed-Size: 432
+Filename: debs/LSTimeSeconds_锁屏秒钟_0.3_iphoneos-arm64.deb
+Size: 38076
+MD5sum: 76d2825c3bf16dc623c6b4977afaefbd
+SHA1: 2bf56d10218b648f6b3685bcd5f502b9ce46da58
+SHA256: b703b466f14b2932523bc4f183e2c40befb0d54050555467a33c6e5992ff2085
+SHA512: 784780632df781475bebba32cc244762f8486e038bf59fb81df3cfef1c7a7e9c11832382c3fadfdbbd93d6efc8c8ae6b86edc183d5b010387af5eadf0182b99b
+Section: Tweaks
+Description: 锁屏时间增加秒数。
+Name: LSTimeSeconds 锁屏秒钟
+Author: b4db1r3
+Icon: https://axs66.github.io/pro/icon/lstimeseconds.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lstimeseconds/js.json
+
+Package: com.axs.muteplay
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: uz.ra
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/MutePlay_1.0_iphoneos-arm64.deb
+Size: 3892
+MD5sum: deaee677e9e11163600ec546790dd970
+SHA1: 7f8ef6345070524a535acfc02a2fecf9ce689b8d
+SHA256: e912e2cb1302d07d93be172d3b29f180935bd67e1c944f412c8a77a207ea0e94
+SHA512: 9c0bf29468a7fc45a2c558f2cc562f2b9ba2b95d01fc8350dbe3c2106b6c4fe1601e1d3620138db4f51bbc032bede603be00e315116963614de3fc6dfbc4b120
+Section: Tweaks
+Description: Mute notifications while playing music。播放音乐的时候，不会因为消息通知，影响音量大小。
+Name: MutePlay
+Author: uz.ra
+Icon: https://axs66.github.io/pro/icon/muteplay.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/muteplay/js.json
+
+Package: com.xybp888.noapplemobilerepair
+Architecture: iphoneos-arm64
+Version: 0.0.1-103
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/No_Apple_MobileRepair_0.0.1-103_iphoneos-arm64.deb
+Size: 10880
+MD5sum: beb1f97e87c0628cc87df13045366ff6
+SHA1: 8421b294252b3813ba980295e38823c887b4e6b9
+SHA256: d63b45af2dadbc0d4a2c78442753277cd35f5efcd38a37d6db700cf04adfaa8b
+SHA512: 00cacce0b024e393a38d8409eb4ae8242bffe19ec365601920599a775245a6e744516f0b80fe57bfd5327d55c10e5aab56fed03f56586d98ce71fe502d430fa9
+Section: Tweaks
+Description: No Apple MobileRepair
+ (禁止在设置页面显示维修记录,例如更换电池的提醒,屏幕等)
+ 本插件免费使用,安装即可生效,无设置!
+ 本插件在 16.5 多巴胺越狱环境下测试通过,其他系统自行测试
+ 1.更换第三方电池后，开启显示正常电池健康值。
+ 2.屏蔽关于本机显示未知部件记录。
+ 3.屏蔽设置显示红1以及电池更新提醒信息。
+ 4.屏蔽设置系统OTA 升级显示红1提醒信息
+Name: No Apple MobileRepair
+Author: xybp888
+Depiction: https://apt.htv123.com/view/159
+SileoDepiction: https://apt.htv123.com/sileo/159
+
 Package: com.0xkuj.notificationsgroupcounts
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -580,6 +701,60 @@ Description: Modern in-app purchase cracker
 Name: Satella
 Author: Paisseon <qiaozhani000@163.com>
 Icon: https://paisseon.github.io/icons/Satella.png
+
+Package: com.susudear.sharingdalertwatchdog
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Maintainer: SuSuDear
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/SharingdAlertWatchdog_1.0.8_iphoneos-arm64.deb
+Size: 11812
+MD5sum: a6f546593ca6a589b98c979ac2d95d86
+SHA1: 2364302c9f48c012271a9fc0453e34e48230a6fd
+SHA256: a7d44dcef9f2e8da12e9f6b616209fae9c5cf21e3cfd2c033a7e6e2f39b95f18
+SHA512: 7815fd20dd802fa4bc482366a131c61b242684b00018cb2769a2870f1333992e307f4e3e57eaa7ec1bc4c07e4b1dae4533b1686ecf2cd6ea3c50b830e9d26ff6
+Section: Tweaks
+Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
+Name: SharingdAlertWatchdog
+Author: SuSuDear
+icon: https://huayuarc.github.io/icon/airdrop.jpg
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64
+Version: 2.7.6-1
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/SquidGesturePro_激活码_2.7.6-1_iphoneos-arm64.deb
+Size: 1771536
+MD5sum: e553a291b86d3fd877b82c3d1447350c
+SHA1: c1f4627d9a718e7ccae2faa20825a60f4cf739aa
+SHA256: b1a5154697b3f034ae841b575291aa512eb3edbea3b0ea2173e55c87235daa0b
+SHA512: 063b2a199081b0368dc74d737b789483eecc53e400a8f0b0b6cbdbcb4979b2b7a4cfe27b7bbf00b2bb30f987eab5147ff262b3020afcfb7d623669c0dea65bc6
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: com.baiy.switchtheme
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: baiy（qq：961666883））
+Installed-Size: 272
+Depends: mobilesubstrate
+Filename: debs/SwitchTheme_1.0.0_iphoneos-arm64.deb
+Size: 34576
+MD5sum: 76cd514cbe45c53ea2c957fcb3ac8e88
+SHA1: 3e35ac9399e25810b9b95978ab20e4ffbd72a28d
+SHA256: ac3ccdfc63bba68b7a96e2d2c1f52ed4e243fa9d63b59319774bfd3225040600
+SHA512: 8584f07ad531c5fb9a25d84785f8dfc9330f3368ac15c3a6029cce50dbfdd341f3987746ec14d92f16543c9e9ffba3f155ec6635f5655f46c7e1fea70488fff5
+Section: Tweaks
+Description: 一刀破解，免激活码，全功能解锁。TG群：https://t.me/gyddpu
+Name: SwitchTheme
+Author: 白衣
 
 Package: com.82flex.touchvis
 Architecture: iphoneos-arm64
@@ -636,6 +811,25 @@ Name: WCRefine
 Author: 热心网友
 dev: 君临
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+
+Package: libflex
+Architecture: iphoneos-arm64
+Version: 5.22.10
+Maintainer: Tanner Bennett <tannerbennett@me.com>
+Installed-Size: 2916
+Pre-Depends: firmware (>= 9.0)
+Filename: debs/libFLEX_5.22.10_iphoneos-arm64.deb
+Size: 657572
+MD5sum: a9208d1906009f57034e2b9ea5f1c8f4
+SHA1: f56761c8ce51c00c153227444cd59fafac11f46f
+SHA256: 2d725fcd3c80519f95bfe7d0997fef209a1252a67db08f83909a66e743c6fa68
+SHA512: 4c4e8388492d81d7aa6e123585ec523963af7bfadff3e8ea39f3556a9e4436606647f4a99216379dea1663a3578e10a15d916bbb0386516955711bd329fbbb89
+Section: Tweaks
+Description: A library for Flipboard Explorer.
+Author: Tanner Bennett <tannerbennett@me.com>
+Name: libFLEX
+Depiction: https://nscake.github.io/package.html?package=libflex
+SileoDepiction: https://nscake.github.io/depictions/libflex.sileo.json
 
 Package: com.spark.libsparkapplist
 Architecture: iphoneos-arm64
@@ -876,6 +1070,24 @@ Author: Netskao
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/wechatnotiavatar/js.json
 
+Package: byg.iosios.net.randomiconsflip
+Architecture: iphoneos-arm64
+Version: 0.3-21
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 4.0)
+Filename: debs/Random_Icon图标随机翻转_0.3-21_iphoneos-arm64.deb
+Size: 12172
+MD5sum: 777904526f57e808ded96c74f638564b
+SHA1: 122f3e852754ec4d5433bff20e6c8b59abb7facc
+SHA256: 49bfe45f22e0b948c7e3b5bf14a11b8a10f8f2bd5b2ef86252b344bd05719e02
+SHA512: 2b84f2a9d57488232fc8392057102086ad821cbc25bd0a9f6c2672ae29b0ae5fb53405b532d5b7528442e766fecd3da17e8d14450a6a6f1aa62733e13a9dae3d
+Section: 杂七杂八
+Description: 插件无设置项，注销生效！功能是让桌面图标随机翻转，没啥用，好看吧！由来了老弟修复支持多巴胺！喜欢的小伙伴们可以试试！
+Name: Random Icon图标随机翻转
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.qjkqdbyx.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.6
@@ -953,6 +1165,43 @@ icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
 Author: Mineek & Nathan & SINI
 
+Package: com.sini.noredirect
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 832
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/No_Redirect_rootless_2.1_iphoneos-arm64.deb
+Size: 90512
+MD5sum: 8cc11b6c451e46c933ac9439f93ee225
+SHA1: cfc5398985847a646d19ff801184567ce213755d
+SHA256: c258f78e411afb7aa5cb64f5109d424b684986f0f99da34b3e108a7ebaba60a0
+SHA512: 961ddbc86a074be1adca9c88dcb2f4b17257275ee67e2973e046700d11ed7beb158b4d91bf4e97fc0a08345d4e251c68e924afe87c9c5b8ebd399a379c30d466
+Section: 越狱插件
+Description: 停止指定的应用程序重定向到App Store、Safari或其他应用程序。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/noredirect.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/noredirect/js.json
+Name: No Redirect(rootless)
+Author: Lessica <82flex@gmail.com>
+
+Package: com.sini.settingsrevamp
+Architecture: iphoneos-arm64
+Version: 3.0.1
+Maintainer: SOPPPra
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Filename: debs/SettingsRevamp_rootless_3.0.1_iphoneos-arm64.deb
+Size: 269712
+MD5sum: c0de62a08d5877d9f67b6f91d83354ef
+SHA1: 7df3660374798117bd49188f1294ddc72485b49b
+SHA256: b344fbd5af7b0096445246483dcda8f808093fb31a56fba0d0f5e2412292c12a
+SHA512: b36f39322d31c92e0002ccdadd62a39cfe5d76f1d85eb00a340c5150e592394ced63d9e17b219de386f7d56343b79ba6e2714533a8d7c0ee530473a893b83ff7
+Section: 越狱插件
+Description: 设置归类
+Author: SOPPPra
+icon: https://sini921.github.io/repo/sileodepiction/icon/settingsrevamp.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/settingsrevamp/js.json
+Name: SettingsRevamp(rootless)
+
 Package: cn.zqbb.holdcpu
 Architecture: iphoneos-arm64
 Version: 2.3.5-5
@@ -973,6 +1222,26 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
+Package: com.axs.pancake
+Architecture: iphoneos-arm64
+Version: 2.3
+Maintainer: AnthoPak
+Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: debs/PanCake_2.3_iphoneos-arm64.deb
+Size: 111712
+MD5sum: 8578a842ea26a6f69e802dc289fb286e
+SHA1: 688a6250c6e6d52321b65152cccd5b889ace117c
+SHA256: 0956bf40469dd5a7165d1c11c53cc7db25adf9b5b009d084244a17c168e4993f
+SHA512: fe41e159d367ad875af4d3deed860e3554b48e1c1aaeac5366a2055e42b98f0d1ff4a0643c3ad7f78b51412de08d7fdcde8ddd3cc5aef667024d667972333816
+Homepage: https://axs66.github.io/pro
+Section: 插件
+Description: 所有应用程序在屏幕中间往左或者往右滑，可以返回上一步操作。
+Name: PanCake
+Depiction: Axs
+Author: AnthoPak
+Icon: https://axs66.github.io/pro/icon/pancake.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/pancake/js.json
+
 Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64
 Version: 1.9.9.1
@@ -989,3 +1258,78 @@ Description: Safari浏览器增强。
 Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
 Name: SafariX
 Author: 0xkuj
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm64
+Version: 2.5.1
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/Sileo_2.5.1_iphoneos-arm64.deb
+Size: 2909228
+MD5sum: 6dd0f3efa4433644380a2dbbeb8aa8e1
+SHA1: c744a8ab37ed93f1812eeb4f92a8d651d325c41a
+SHA256: efe9f31c7d4ff10c7262bf0cead74e4b030007c9194e326e70052850d343bb68
+SHA512: a0295e5ca5e30ec046e334fbc16dd0713b37b74ca7bbc354c2d8d10cf199cadf788a59d043f234d22388f8962311bbaa5c6ce0cbfbd53392d35bdd9c08f9ec52
+Section: 插件
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: byg.iosios.net.smartnetwork
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 1272
+Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common
+Conflicts: com.eliassfeir.smartnetwork
+Filename: debs/SmartNetwork智能网络-Rootless_1.1_iphoneos-arm64.deb
+Size: 286552
+MD5sum: 6dab3c1f285909b9d862294e36aadb30
+SHA1: 62af00dc16a3e9b73321880d097a72a8ebd4c4ed
+SHA256: 41498e203e7c27bd137a096e5e1c0872d6587e71b67ca47624a88efc8275645a
+SHA512: d20c6dada32cf70c4fe2e8238a63fc9b9450751c7b51b38d70c57ce5f01cb8e6d5f2f935648f171c7c8944a1dc2d37319eaa60052757479e9924ee959afd98d1
+Section: 插件
+Description: The most complete tweak to customize WiFi / mobile data and Bluetooth智能网络插件，自定义你的WiFi及数据网络，付费插件现免费使用，感谢Cpywn大神及巨魔商店M哥汉化分享，有了你们，越狱才会变的更精彩！有经济能力的还是要去支持原作者开发！
+Name: SmartNetwork智能网络-Rootless
+Author: elias
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.dao.stella
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Maintainer: yan & 刀刀
+Installed-Size: 1332
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Conflicts: com.yan.stella, xyz.cypwn.stella
+Filename: debs/Stella中文版_1.1.5_iphoneos-arm64.deb
+Size: 400904
+MD5sum: 6e52d83367afa662a7ae790d9e13096f
+SHA1: f67a3c0f42ff2d0878310d32ee715de2cd498616
+SHA256: d257475ee8abe9c1aa28aff381266db386ab25198f4f3fa7d683e5fc6dd8eefd
+SHA512: 62a07f964349446c19f6feb703bdf6806e8d9233442b1613a12a615b33ca1374f63e5c2d32bb37a0745c8cca38492abe08dff5a840469706b8ee3297e414a3e4
+Section: 插件
+Description: 刀老板编译的，备份。支持无根。隐根我没试，自测哈。
+Name: Stella中文版
+Author: yan
+Icon: https://s1.imagehub.cc/images/2025/01/22/17c9a83aa8678b3e03351147aa8784fc.png
+
+Package: com.dao.storeswitcher2
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: subdiox
+Installed-Size: 184
+Depends: firmware (>= 11), mobilesubstrate
+Conflicts: com.lenglengyu.storeswitcher2-rootless, com.yourepo.0xkuj.storeswitcher2rootless, com.hk.storeswitcher2.rl, com.qms.storeswitcher
+Filename: debs/StoreSwitcher2_rootless_1.0.5_iphoneos-arm64.deb
+Size: 13716
+MD5sum: 84d35bbd9f4a355b4ad2a207182c08a1
+SHA1: e1fdc7497652f589b1191af78d6295579981cc98
+SHA256: 42de915ceaaa03e09adcdf5e144611266e6806d23c890c007571f0a3dec64da5
+SHA512: 82ea3951ad31abf6180069ac0d60236ebb2803d3936fc1ab6758f3af069b0c408a02e671f49079e32ab70deab2b7e3c2385dac6271d35dabb0f5469a9849142f
+Section: 插件
+Description: 点击AppStore帐户页面左上角图标快速切换账号。
+Name: StoreSwitcher2(rootless)
+Author: subdiox
