@@ -1,3 +1,66 @@
+Package: com.amywhile.aemulo
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Section: Tweaks
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2224
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulotrial
+Filename: debs/Aemulo_1.2.5_iphoneos-arm64.deb
+Size: 624888
+MD5sum: d1e46a392df170740f6947893b61e830
+SHA1: ebb27a7b094dd44080f0caeb5cf0345d4bf09547
+SHA256: 536359c21250e49cc5134e140c547bc37e4c31eda830d9eb58f3703c6976e2fa
+SHA512: f932b5ac6ff1b980f3ad459f0a20d1a4a3ebf9b4b99b354f4863d94688742589e6117bf389f0ebea4c8c78f14d5b188c19fc090c9f2cdf8595516b3738ffb6aa
+Description: NFC Frickery
+Name: Aemulo
+Author: Amy While <support@anamy.gay>
+Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
+
+Package: ws.hbang.alderis
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2463
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Filename: debs/Alderis_Color_Picker_1.2.3_iphoneos-arm64.deb
+Size: 290608
+MD5sum: fc19c9756ffce5b17ebfe0035a26dfb8
+SHA1: da0d356304a8d6dff32ae11e234ba58e63e23a09
+SHA256: 377a790e21e09fe3c05e5795b87e60d0b18f67a3f24523b71f85de44abc2dc3e
+SHA512: e52d5c8ab37786b7d5d0fa38c51fe81d472f5dc2bc3184f221485bbb71a1f7c52c28ea6a95b376510b0fe6ab8012e46434f08a3dcfa50e2eb86c418e68b5503b
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Depiction: https://chariz.com/get/alderis
+
+Package: com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.0.11
+Section: System
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>= 7.0)
+Filename: debs/AltList_1.0.11_iphoneos-arm64.deb
+Size: 26904
+MD5sum: edc4cd5b97da30f75f8f7cbe5bb99101
+SHA1: 5cd43eeff7f46ad069f999b88e46d597ec37a9b3
+SHA256: c062bdbe6dcdd511898ecf89b9e148f5520df0397835345ec343e4d6b33a5862
+SHA512: 6ca9e6ca38b3304e405b4deabf25f39be1ce25e6c97ed95d9daa9df79f72add493eb40952d6630566ef2a6b1dfa90d4b50e7100ea67881fb25015d8c686bcd29
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+
 Package: com.sini921.appstoretroller
 Architecture: iphoneos-arm64
 Version: 0.1.2-5
@@ -392,6 +455,25 @@ Name: 广告终结者-Rootless
 Author: 机车主&来了老弟&iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.axs.wechatnotiavatar
+Architecture: iphoneos-arm64
+Version: 1.3-1
+Section: 微信插件
+Maintainer: Axs
+Installed-Size: 1228
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/微信通知头像_1.3-1_iphoneos-arm64.deb
+Size: 242856
+MD5sum: 44493cb82cf75ecac6f7bdc20aad9956
+SHA1: d3b3826fd6b824d6b6d17c894b9570e835509c90
+SHA256: 2623ce7126bd0d23ff37ac44be0055e6d6dbe2d2188bd9c4ff3cda978ab3a4e0
+SHA512: 18bf47bc6a41c2131d316d1b0d0e42337c2aab876f545d77523dc91ddd61b0059baac60b61692335bc5e072dacb8d79f3992013d6ddf966f18aedb93a72808ba
+Description: Display Notification Avatars for WeChat App using iOS15+ APIs
+Name: 微信通知头像
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/wechatnotiavatar/js.json
 
 Package: com.colorblack.alinfcwakefix
 Architecture: iphoneos-arm64
