@@ -308,6 +308,23 @@ Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 
+Package: com.82flex.panoramicview
+Architecture: iphoneos-arm64
+Version: 0.22.7
+Maintainer: 82Flex
+Installed-Size: 1948
+Depends: firmware (>= 16.1), mobilesubstrate, preferenceloader
+Filename: debs/82分屏_0.22.7_无根.deb
+Size: 359060
+MD5sum: ab19192743bb175669abc81fa7ca2e82
+SHA1: a899432d5b57e10ff14a8272eb17624c220e8779
+SHA256: 465769b3e7128a4f3d76740f9229175b7fbb14fb8408d192c0a0f7d40dd14ba5
+SHA512: e91a1215fb9e3f0b04138214edfff21015c1d1a31740f9996ca2aca539fe57bee7b48f2094256f423ec6c1c272bbb10f5f3488087c27bc971eb4574ca82d0ef2
+Section: Tweaks
+Description: Two apps, full size, one swipe apart.
+Name: PanoramicView
+Author: 82Flex
+
 Package: com.charlieleung.liquidify
 Architecture: iphoneos-arm64
 Version: 1.3.8+repair.test3
@@ -1618,3 +1635,22 @@ Section: 插件
 Description: 点击AppStore帐户页面左上角图标快速切换账号。
 Name: StoreSwitcher2(rootless)
 Author: subdiox
+
+Package: jp.uzra.aerial
+Architecture: iphoneos-arm64
+Version: 4.0
+Maintainer: uzra
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/小日子分屏_4.0_无根.deb
+Size: 11453264
+MD5sum: ca481985b7dda743c638d9df9cc4b0e6
+SHA1: e705bb3bf6e7493ef07e836ef6b4ea12389c05a1
+SHA256: 40c3524a4616e14ac6b392b60aa3cc975f7380da7b7638159ffd0ae7d0805600
+SHA512: a1d58b84f45469eef45047ed42d8568274cade1d0334163a6251c2edb2f84e80b992882703cf5f9f95f6c4f23b6e967b6262b8dfce8500b4aab4e7d768d05277
+Section: 插件
+Description: Stage Manager, redesigned for iOS.
+Depiction: https://axs66.github.io/pro
+Name: Aerial
+Author: uz.ra
+Icon: https://axs66.github.io/pro/icon/aerial.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/aerial/js.json
