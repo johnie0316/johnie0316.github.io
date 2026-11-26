@@ -1129,6 +1129,25 @@ Tag: role::developer
 Name: libSparkAppList
 Author: Spark
 
+Package: xyz.cypwn.aerial
+Architecture: iphoneos-arm64
+Version: 5.1k
+Maintainer: CyPwn
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/xyz.cypwn.aerial_5.1k_iphoneos-arm64.deb
+Size: 14658652
+MD5sum: e7c6877d5ef17d6ed70513ce7374e4cd
+SHA1: 6b1d093e9af9eb74278957e847ddf140414d6bc3
+SHA256: 2c8c47f744333f832cff98d9e1f3a7ae9b99ca9b061974e0872e2854d5484fd1
+SHA512: d4df41cbf3272ee727618ad50766a6c7a5b289f852960666bb745fc1ef45e5276bc4d85fa39d0e91d68cd51f196cb8e21b3b04994df4727e857e84caa4db65fd
+Section: Tweaks
+Description: Stage Manager, redesigned for iOS. Cracked by trwmd34.
+Depiction: https://repo.cypwn.xyz/depiction/3630
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3630
+Icon: https://repo.cypwn.xyz/packages/Aerial-Rootless/icon.png
+Name: Aerial
+Author: uz.ra
+
 Package: com.squidforce.doubletapflipcamera
 Architecture: iphoneos-arm64
 Version: 1.1
